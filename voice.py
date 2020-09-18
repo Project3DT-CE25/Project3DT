@@ -10,3 +10,4 @@ def demo_win10():
     syn.Speak(s)
 
 demo_win10()
+print("Helloworld2")
