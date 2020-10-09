@@ -8,4 +8,6 @@ print(vcs.Item (speaker_number) .GetAttribute ("Name")) # speaker name
 spk.Voice
 spk.SetVoice(vcs.Item(speaker_number)) # set voice (see Windows Text-to-Speech settings)
 spk.Speak("35.5องศา")
-
+spk.Speak("อุณหภูมิเกิน 37.5องศา กรุณาลองใหม่อีกครั้ง")
+spk.Speak("กรุณาลองใหม่อีกครั้ง")
+spk.Speak("ผ่านครับ")
