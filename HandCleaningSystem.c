@@ -50,7 +50,6 @@ void func_sensor(){
       }
     }
 }
-
 void func_pump(){
   if(trigPump == 1){ 
     if(millis() - last_time >= period){
@@ -67,7 +66,7 @@ void func_pump(){
         trigPump = 0;
         while(digitalRead(irPin) == 0){
           // stop work until your hand out area
-        }
+                  }
       }
     }
   }
