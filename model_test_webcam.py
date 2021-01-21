@@ -7,7 +7,7 @@ import tensorflow as tf
 import zipfile
 
 
-# os.chdir('D:\\models-master\\research\\object_detection')
+# os.chdir('D:\\models-master\\research\\object_detection')#
 
 from collections import defaultdict
 from io import StringIO
