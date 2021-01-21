@@ -103,7 +103,7 @@ void func_gate(){
     }
     valueS1 = digitalRead(irS1);
     valueS2 = digitalRead(irS2);
-    if(valueS1 == 0 and valueS2 == 1){          // s1 = on , s2 = off
+    if(valueS1 == 0 and valueS2 == 1){          // sw1 = on , sw2 = off
       //--------- OPEN GATE ------------//
       myservo.write(90);
     }else if(valueS1 == 0 and valueS2 == 0){
