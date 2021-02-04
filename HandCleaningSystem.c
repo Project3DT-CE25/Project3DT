@@ -4,6 +4,7 @@
 
 Adafruit_MLX90614 mlx = Adafruit_MLX90614();
 Servo myservo; //echo Servo
+
 /*
  * SET PORT
  */
@@ -13,6 +14,7 @@ int irPin = 7;      // OUTPUT * Black line * pin 7
 int irS1 = 9;
 int irS2 = 10;
 myservo.attach(15);
+
 /*
  * Global variable
  */
