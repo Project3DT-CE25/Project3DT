@@ -26,6 +26,7 @@ class FPS:
 		# compute the (approximate) frames per second
 		return self._numFrames / self.elapsed()
 
+
 from threading import Thread
 import cv2
 class WebcamVideoStream:
