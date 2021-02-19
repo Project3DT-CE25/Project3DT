@@ -7,6 +7,7 @@ from kivy.graphics.texture import Texture
 
 import cv2
 
+
 class CamApp(App):
 
     def build(self):
