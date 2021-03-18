@@ -2,7 +2,7 @@ from __future__ import print_function
 import datetime
 class FPS:
 	def __init__(self):
-		# store the start time, end time, and total number of frames
+		# store the start time, end time, and total number of frames.
 		# that were examined between the start and end intervals
 		self._start = None
 		self._end = None
@@ -31,7 +31,7 @@ from threading import Thread
 import cv2
 class WebcamVideoStream:
 	def __init__(self, src=0):
-		# initialize the video camera stream and read the first frame
+		# initialize the video camera stream and read the first frame.
 		# from the stream
 		self.stream = cv2.VideoCapture(src)
 		(self.grabbed, self.frame) = self.stream.read()
