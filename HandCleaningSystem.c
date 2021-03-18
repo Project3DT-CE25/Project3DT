@@ -95,7 +95,7 @@ void func_pump(){
 
 void func_gate(){
   if(trigGate == 1){
-    static unsigned long last_time = millis()           // (millis()-4500);   // Delay Before Work 500 ms.
+    static unsigned long last_time = millis()           // (millis()-4500);   // Delay Before Work 500 ms. ///
     static unsigned long period = 5000;                 // Time work 5 s.
     if(millis() - last_time >= period){
       last_time = millis();
